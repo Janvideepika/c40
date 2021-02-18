@@ -8,19 +8,28 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
 
 
-    <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBEU4--XOT6Ziq7G26mDx6YsUtH4FVFG5w",
+    authDomain: "car-game-dc873.firebaseapp.com",
+    databaseURL: "https://car-game-dc873-default-rtdb.firebaseio.com",
+    projectId: "car-game-dc873",
+    storageBucket: "car-game-dc873.appspot.com",
+    messagingSenderId: "599910452977",
+    appId: "1:599910452977:web:00e2ec3e87733d1e212350"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
